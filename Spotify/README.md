@@ -1,4 +1,4 @@
-![Spotify Logo](spotify.png)
+![Spotify Logo](/spotify.png)
 
 HTML ve CSS kullanarak ön arayüz denememdir.
 ## **Demo**
