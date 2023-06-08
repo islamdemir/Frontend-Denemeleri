@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+    .float-l {
+        float: left;
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    nav {
+        margin-top: 1.9rem;
+    }
+
+    .float-l {
+        float: left;
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width:939px) {
+    .img {
+        margin-top: 2.5rem;
+    }
+}
+
+.link {
+    position: relative;
+    width: 117px;
+}
+
+.link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 100%;
+    background: #5eff00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.link:hover::after {
+    opacity: 1;
+}
