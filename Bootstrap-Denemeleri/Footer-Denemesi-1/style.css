@@ -1,0 +1,30 @@
+/* foooter social media color */
+.link:hover {
+    color: #e00000;
+}
+
+/* .footer list item background hover */
+.libg:hover {
+    background: #cacaca2d;
+}
+
+/* footer head  */
+@media screen and (max-width:768px) {
+
+    /* .txt follow us and social media text center  */
+
+    .txt {
+        text-align: center !important;
+    }
+}
+
+/* footer bottom */
+@media screen and (max-width:991px) {
+
+    /* .txt follow us, social media and footer bottom-1 > column-1 text center  */
+
+    .txt {
+        text-align: center !important;
+    }
+
+}
